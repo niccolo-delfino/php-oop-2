@@ -1,0 +1,15 @@
+Database: User di un blog
+
+Tabella: User
+
+Campi			Tipo di dato-ATTRIBUTI
+
+ID			numero - INT (BYGINT per progetti grandi) – PRIMARY KEY(AI – UNIQUE è sottointeso)
+nome			stringa - varchar(50) - NOT NULL
+cognome			stringa - varchar(50) - NOT NULL
+username		stringa - varchar(30) - NOT NULL - UNIQUE
+email			stringa - varchar(60) - NOT NULL - UNIQUE
+paese			stringa - varchar(40) - NOT NULL
+data_di_nascita		date – DATE - NOT NULL
+
+
